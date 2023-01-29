@@ -1,0 +1,10 @@
+C:\לימודים\הנדסת תוכנה\html - איזבלה\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.csprojAssemblyReference.cache
+C:\לימודים\הנדסת תוכנה\html - איזבלה\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.AssemblyInfoInputs.cache
+C:\לימודים\הנדסת תוכנה\html - איזבלה\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.AssemblyInfo.cs
+C:\לימודים\הנדסת תוכנה\html - איזבלה\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.csproj.CoreCompileInputs.cache
+C:\לימודים\הנדסת תוכנה\html - איזבלה\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\websitetest\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.csprojAssemblyReference.cache
+C:\websitetest\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.AssemblyInfoInputs.cache
+C:\websitetest\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.AssemblyInfo.cs
+C:\websitetest\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.csproj.CoreCompileInputs.cache
+C:\websitetest\vrWebSite\vrWebSite\vrWebSite\obj\Debug\netcoreapp3.1\vrWebSite.MvcApplicationPartsAssemblyInfo.cache

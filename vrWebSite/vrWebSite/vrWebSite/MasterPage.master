@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<head runat="server">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@500&display=swap" rel="stylesheet">
+
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+        <style>
+
+            </style>
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>   
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <div id="navbar">
+  <div id="navbar-right">
+    <a class="active" href="Home.aspx">Main</a>
+    <a class="active1" href="Login.aspx">Sign In</a>
+    <a class="active1" href="BeatSaber.aspx">Beat Saber</a>
+	<a class="active1" href="HalfLifeAlyx.aspx">Half Life Alyx</a>
+	<a class="active1" href="StrideVR.aspx">Stride VR</a>
+      <%=trivia %>
+      <!--<a class="active1" href="PasswordChange.aspx">Password Change</a>!-->
+    <!--<a class="active1" href="deleteByNickname.aspx">Delete By Nickname</a>!-->
+      <!--<a class="active1" href="searchUser.aspx">Search User</a>!-->
+      <!--<a class="active1" href="usersList.aspx">Users List</a>!-->
+      <!--<a class='active1' style="background-color: #e60000; color: white;" href='Logout.aspx'>Log-Out</a>!-->
+      <%=navbar %>
+      <%=logOut %>
+      
+  </div>
+</div>
+    <script type="text/javascript">
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "15px 5px";
+  } else {
+    document.getElementById("navbar").style.padding = "40px 5px";
+  }
+}
+    </script>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</body>
+</html>
